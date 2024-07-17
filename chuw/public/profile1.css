@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bd5404; /* Cream */
+  color: #4d6a4d; /* Forest Green */
+  margin: 0;
+  padding: 0;
+}
+.profile-image {
+  text-align: center;
+  margin-bottom: 20px; /* Space below the image */
+}
+
+.profile-image img {
+  width: 150px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  border: 2px solid #4d6a4d; /* Optional: border color */
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff; /* White for contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4d6a4d; /* Forest Green */
+}
+
+.recipe {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #c4a69f; /* Cinnamon */
+  border-radius: 5px;
+}
+
+h2 {
+  color: #4d6a4d; /* Forest Green */
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4d6a4d; /* Forest Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #3b5a3b; /* Darker Forest Green */
+}
