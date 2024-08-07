@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* Cream */
+  color: #4d6a4d; /* Forest Green */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff; /* White for contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #8B4513; /* Cinnamon */
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #4d6a4d; /* Forest Green */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4d6a4d; /* Forest Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3b5a3b; /* Darker Forest Green */
+}
+
+.fun-facts {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f2e6d5; /* Light Cream */
+  border-radius: 10px;
+}
+
+.fun-facts h2 {
+  text-align: center;
+  color: #8B4513; /* Cinnamon */
+}
+
+.fun-facts ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
