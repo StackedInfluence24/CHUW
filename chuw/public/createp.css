@@ -6,6 +6,22 @@ body {
   padding: 0;
 }
 
+.header {
+  background-color: #38512f;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 0px;
+}
+
 .container {
   max-width: 600px;
   margin: 50px auto;
