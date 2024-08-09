@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile - CHEW</title>
+    <link rel="stylesheet" href="createp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Profile</h1>
+        <form onsubmit="return createProfile(event)">
+            <label for="name">Name (max 30 characters):</label>
+            <input type="text" id="name" name="name" maxlength="30" required>
+            
+            <label for="age">Age (7-100):</label>
+            <input type="number" id="age" name="age" min="7" max="100" required>
+            
+            <label for="zipcode">Zip Code (max 6 digits):</label>
+            <input type="number" id="zipcode" name="zipcode" maxlength="6" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" maxlength="30" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-binary">Non-binary</option>
+                <option value="prefer-not-to-answer">Prefer not to answer</option>
+            </select>
+            
+            <button type="submit">Let's Food!</button>
+        </form>
+    </div>
+
+    <script>
+        function createProfile(event) {
+            event.preventDefault();
+            // Redirect to the blank slate page
+            window.location.href = 'blankslate.html';
+        }
+    </script>
+</body>
+</html>
