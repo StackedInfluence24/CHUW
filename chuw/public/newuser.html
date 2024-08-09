@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHUW</title>
+    <title>CHUW - Connect with Foodies</title>
     <style>
         body {
             background-color: #38512f; /* Darker green background */
@@ -122,11 +122,10 @@
             margin: 10px 0;
             text-decoration: none;
         }
-        
+
         .follow-button:hover {
             background-color: #2d3a27; /* Darker green on hover */
         }
-
     </style>
 </head>
 
@@ -135,11 +134,13 @@
         <img src="images/chuwlogo-removebg-preview.png" alt="logo">
         <h1>Connect with Foodies</h1>
     </div>
-    
+   
     <div class="profile-container">
         <!-- Profile 1 -->
         <div class="profile">
-            <img src="images/nicole.jpg" alt="Love_Love_Lasagna" onclick="window.location.href='#'">
+            <a href="nicoleprofile.html">
+                <img src="images/nicole.jpg" alt="Love_Love_Lasagna">
+            </a>
             <h2>Love_Love_Lasagna</h2>
             <a class="follow-button" href="#">Follow</a>
             <h3>Tonight’s Plate:</h3>
@@ -151,10 +152,12 @@
                 </div>
             </div>
         </div>
-        
+       
         <!-- Profile 2 -->
         <div class="profile">
-            <img src="images/nissa.jpeg" alt="WineMe_DineMe8" onclick="window.location.href='#'">
+            <a href="nissaprofile.html">
+                <img src="images/nissa.jpg" alt="WineMe_DineMe8">
+            </a>
             <h2>WineMe_DineMe8</h2>
             <a class="follow-button" href="#">Follow</a>
             <h3>Tonight’s Plate:</h3>
@@ -169,7 +172,9 @@
 
         <!-- Profile 3 -->
         <div class="profile">
-            <img src="images/ShawnDe.jpg" alt="BartendersFavBartender" onclick="window.location.href='#'">
+            <a href="shawndeprofile.html">
+                <img src="images/De.jpg" alt="BartendersFavBartender">
+            </a>
             <h2>BartendersFavBartender</h2>
             <a class="follow-button" href="#">Follow</a>
             <h3>Tonight’s Plate:</h3>
@@ -182,5 +187,39 @@
             </div>
         </div>
     </div>
+
+    <!-- User Profile Page Structure (for example, User Profile - Love_Love_Lasagna) -->
+    <div class="profile-container" style="display: none;" id="user-profile-nicole">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <a href="nicoleprofile.html">
+                <img src="images/nicole.jpg" alt="Love_Love_Lasagna">
+            </a>
+            <h2>Love_Love_Lasagna</h2>
+        </div>
+       
+        <!-- About Me Section -->
+        <div class="section about-me">
+            <h3>About Me</h3>
+            <p>Hello! I'm Love_Love_Lasagna, a passionate home cook who loves experimenting with new recipes. Whether it's a quick weeknight dinner or a weekend feast, I'm always looking for ways to make delicious food at home. I also enjoy sharing my culinary adventures with friends and family.</p>
+        </div>
+
+        <!-- Recipes Section -->
+        <div class="section recipes">
+            <h3>Recipes</h3>
+            <img src="images/cheddarbiscuits.jpg" alt="Cheddar Bay Biscuits and Crab Cakes">
+            <p>“My best friend and I were in the mood for cheddar bay biscuits and crab cakes. I didn’t feel like driving to Red lobster, so we made them at home.”</p>
+            <p>Recipe: Mix flour, baking powder, sugar, and salt. Add butter and milk. Shape into biscuits and bake at 450°F for 10-12 minutes.</p>
+        </div>
+
+        <!-- Chat Box Section -->
+        <div class="section chat-box">
+            <h3>Chat with Me</h3>
+            <textarea rows="4" placeholder="Type your message..."></textarea>
+            <button>Send</button>
+        </div>
+    </div>
+
 </body>
 </html>
+

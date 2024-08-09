@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Profile - CHUW</title>
+    <style>
+        body {
+            background-color: #38512f; /* Darker green background */
+            font-family: Arial, sans-serif;
+            color: #FEF5E7; /* Cream text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #38512f;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #FEF5E7;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-header a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .profile-header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            cursor: pointer;
+            margin-right: 20px;
+            transition: transform 0.3s;
+        }
+
+        .profile-header img:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-header h2 {
+            color: #38512f; /* Green color for username */
+            font-size: 28px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h3 {
+            color: #38512f; /* Green color for section titles */
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            color: #38512f;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .recipes img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .chat-box {
+            background-color: #FEF5E7;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .chat-box h3 {
+            color: #38512f; /* Green color for chat box title */
+            margin-bottom: 10px;
+        }
+
+        .chat-box textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #38512f;
+            margin-bottom: 10px;
+            resize: none;
+        }
+
+        .chat-box button {
+            background-color: #38512f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .chat-box button:hover {
+            background-color: #2d3a27; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="images/chuwlogo-removebg-preview.png" alt="logo">
+        <h1>Foodie Profile</h1>
+    </div>
+    
+    <div class="profile-container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <a href="user-profile.html">
+                <img src="images/de.jpg" alt="BartendersFavBartender">
+            </a>
+            <h2>Love_Love_Lasagna</h2>
+        </div>
+        
+        <!-- About Me Section -->
+        <div class="section about-me">
+            <h3>About Me</h3>
+            <p>Yerrrr!!! It's BartendersFavBartender, your go-to bartender and mixology enthusiast. When I’m not shaking up cocktails, you’ll find me exploring new restaurants, indulging in delicious cuisine, or hosting tastings where I share my knowledge of food pairings. I love connecting with fellow foodies and drink lovers, sharing tips on how to elevate everyday meals with the right cocktail.</p>
+        </div>
+
+        <!-- Recipes Section -->
+        <div class="section recipes">
+            <h3>Recipes</h3>
+            <img src="images/pina.jpg" alt="strawberry pina colada">
+            <p>“& when it comes to a drink….. IMA HAVE IT!!! Want a sip of my Strawberry Piña colada?”</p>
+            <p>Recipe: Recipe: Blend strawberries, pineapple juice, coconut cream, and ice. Garnish with a strawberry and pineapple slice.</p>
+        </div>
+
+        <!-- Chat Box Section -->
+        <div class="section chat-box">
+            <h3>Chat with Me</h3>
+            <textarea rows="4" placeholder="Type your message..."></textarea>
+            <button>Send</button>
+        </div>
+    </div>
+</body>
+</html>
