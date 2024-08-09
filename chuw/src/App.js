@@ -12,7 +12,7 @@ import Login from './pages/Login';
 function App() {
   return (
    <>
-      <Navbar />
+
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/create-profile" element={<CreateProfile />} />
