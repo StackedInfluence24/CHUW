@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e1d4d2; /* Cream */
-  color: #4d6a4d; /* Forest Green */
+  background-color: #f5f5dc; /* Beige */
+  color: #4d6a4d; /* Dark Green */
   margin: 0;
   padding: 0;
 }
@@ -17,38 +17,33 @@ body {
 
 h1 {
   text-align: center;
-  color: #4d6a4d; /* Forest Green */
-}
-
-p {
-  text-align: center;
-}
-
-.signup-form {
-  display: flex;
-  flex-direction: column;
+  color: #8B4513; /* Brown */
 }
 
 label {
+  display: block;
   margin: 10px 0 5px;
 }
 
 input {
+  width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #c4a69f; /* Cinnamon */
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 button {
+  width: 100%;
   padding: 10px;
-  background-color: #4d6a4d; /* Forest Green */
+  background-color: #4d6a4d; /* Dark Green */
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #3b5a3b; /* Darker Forest Green */
+  background-color: #3b5a3b; /* Darker Green */
 }
