@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #38512f; /* Cream or cin */
+    color: #38512f; /* Forest Green */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #38512f;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 0px;
+}
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fcfcfc; /* White for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h1 {
+    text-align: center;
+    color: #4d6a4d; /* Forest Green */
+  }
+  
+  .p {
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin: 10px 0 5px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c4a69f; /* Cinnamon */
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #4d6a4d; /* Forest Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3b5a3b; /* Darker Forest Green */
+  }
