@@ -3,7 +3,7 @@ import '../styles/signup.css'
 
 const signup = () => {
   return ( <div class="container">
-  <h1>Sign Up for CHEW</h1>
+  <h1>Sign Up for CHUW</h1>
   <form onsubmit="return signUpUser(event)">
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" value="email@email.com" required/>

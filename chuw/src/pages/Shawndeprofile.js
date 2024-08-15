@@ -1,10 +1,13 @@
 import React from 'react';
-import './ShawndeProfile.css';
+import '../styles/ShawndeProfile.css';
 
 const ShawndeProfile = () => (
   <div>
     <div className="header">
-      <a href="chuwwelcome.html" className="logo-button">
+              <Link to="/chuwwelcome" className="logo-button">
+        <img src="images/chuwlogo-removebg-preview.jpg" alt="Logo" />
+      </Link>
+      <a href="chuwwelcome.js" className="logo-button">
         <img src="images/chuwlogo-removebg-preview.jpg" alt="Logo" />
       </a>
       <h1>Foodie Profile</h1>

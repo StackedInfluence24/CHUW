@@ -1,10 +1,10 @@
 import React from 'react';
-import './NissaProfile.css';
+import '../styles/NissaProfile.css';
 
 const NissaProfile = () => (
   <div>
     <div className="header">
-      <a href="chuwwelcome.html" className="logo-button">
+      <a href="chuwwelcome.js" className="logo-button">
         <img src="images/chuwlogo-removebg-preview.jpg" alt="Logo" />
       </a>
       <h1>Foodie Profile</h1>

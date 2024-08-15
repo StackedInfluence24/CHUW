@@ -4,7 +4,7 @@ import '../styles/nicoleprofile.css';
 const NicoleProfile = () => (
   <div>
     <div className="header">
-      <a href="chuwwelcome.html" className="logo-button">
+      <a href="chuwwelcome.js" className="logo-button">
         <img src="images/chuwlogo-removebg-preview.jpg" alt="Logo" />
       </a>
       <h1>Foodie Profile</h1>

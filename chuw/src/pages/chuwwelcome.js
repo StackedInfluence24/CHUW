@@ -46,12 +46,12 @@ const Chuwwelcome = () => {
               )}
               {title === 'Recipes' && (
                 <>
-                  <a href="newuser.html">By Foodie/Influencer</a>
+                  <a href="newuser.js">By Foodie/Influencer</a>
                   <a href="#">By Diet</a>
                   <a href="#">By Culture</a>
                   <a href="#">By Holiday & Season</a>
                   <a href="#">By Method</a>
-                  <a href="CHUW.html">Recipe Hub</a>
+                  <a href="chuw.js">Recipe Hub</a>
                 </>
               )}
               {title === 'Meal Planning' && (
@@ -120,7 +120,7 @@ const Chuwwelcome = () => {
         <div className="btn-container">
           <button>Login</button>
           <button>
-            <a href="signup.html"> sign up</a>
+            <a href="signup.js"> sign up</a>
           </button>
         </div>
       </div>
