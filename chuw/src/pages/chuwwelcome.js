@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/chuwwelcome.css';
 
 const Chuwwelcome = () => {
@@ -46,12 +47,12 @@ const Chuwwelcome = () => {
               )}
               {title === 'Recipes' && (
                 <>
-                  <a href="newuser.js">By Foodie/Influencer</a>
+                  <Link to="/newuser">By Foodie/Influencer</Link>
                   <a href="#">By Diet</a>
                   <a href="#">By Culture</a>
                   <a href="#">By Holiday & Season</a>
                   <a href="#">By Method</a>
-                  <a href="chuw.js">Recipe Hub</a>
+                  <Link to="/chuw">Recipe Hub</Link>
                 </>
               )}
               {title === 'Meal Planning' && (
@@ -120,7 +121,7 @@ const Chuwwelcome = () => {
         <div className="btn-container">
           <button>Login</button>
           <button>
-            <a href="signup.js"> sign up</a>
+            <Link to="/signup">Sign Up</Link>
           </button>
         </div>
       </div>
