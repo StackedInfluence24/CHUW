@@ -1,49 +1,69 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5dc; /* Beige */
-  color: #4d6a4d; /* Dark Green */
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #38512f; /* Cream or cin */
+    color: #38512f; /* Forest Green */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #38512f;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container {
-  max-width: 400px;
-  margin: 100px auto;
-  padding: 20px;
-  background-color: #fff; 
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.header img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 0px;
 }
-
-h1 {
-  text-align: center;
-  color: #8B4513; /* Brown */
-}
-
-label {
-  display: block;
-  margin: 10px 0 5px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4d6a4d; /* Dark Green */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #3b5a3b; /* Darker Green */
-}
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fcfcfc; /* White for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h1 {
+    text-align: center;
+    color: #4d6a4d; /* Forest Green */
+  }
+  
+  .p {
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin: 10px 0 5px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c4a69f; /* Cinnamon */
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #4d6a4d; /* Forest Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3b5a3b; /* Darker Forest Green */
+  }
