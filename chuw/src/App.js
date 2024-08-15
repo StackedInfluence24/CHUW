@@ -1,6 +1,5 @@
-// src/App.js
 import React from 'react';
-import {Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './component/navbar';
 import Signup from './pages/Signup';
 import CreateProfile from './pages/CreateProfile';
@@ -12,8 +11,8 @@ import Home from './pages/chuwwelcome';
 
 function App() {
   return (
-   <>
-
+    <>
+      <Navbar />
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/create-profile" element={<CreateProfile />} />
@@ -22,8 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-
-   </>
+    </>
   );
 }
 
