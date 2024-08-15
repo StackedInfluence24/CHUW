@@ -8,6 +8,7 @@ import Profile from './pages/Profile';
 import BlankSlate from './pages/Blankslate';
 import './App.css'; 
 import Login from './pages/Login';
+import Home from './pages/chuwwelcome';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path="/create-profile" element={<CreateProfile />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/blank-slate" element={<BlankSlate />} />
-        <Route path="/" element={<Signup />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
       </Routes>
 

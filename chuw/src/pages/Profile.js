@@ -1,7 +1,7 @@
 // src/pages/Profile.js
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import './profile1.css';
+import '../styles/profile1.css';
 
 const Profile = () => {
   const location = useLocation();

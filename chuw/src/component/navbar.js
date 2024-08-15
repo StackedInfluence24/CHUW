@@ -1,6 +1,6 @@
 // src/component/Navbar.js
 import React from 'react';
-import './navbar.css';
+import '../styles/navbar.css';
 
 const Navbar = () => {
   const toggleNav = () => {
